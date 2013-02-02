@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <style type="text/css">
+            body{
+                margin-top: 10px;
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+            }
+            hr{
+                margin:20px 0 0 0;
+                padding:0;
+                border:0;
+                outline:0;
+                overflow:hidden;
+                height:20px;
+            }
+            hr:after{
+                content:"";
+                margin:0 auto;
+                position:relative;
+                top:-35px;
+                display:block;
+                width:95%;
+                height:16px;
+                box-shadow:0px 20px 10px #888;
+                -webkit-border-radius:50%;
+                -moz-border-radius:50%;
+                border-radius:50%;
+            }​
+        </style>
+    </head>
+    <body>
+        <div class"container">
+            <img src="{foto}" alt={nome}></img>
+            <hr>
+            <p><strong>Nome:</strong> {nome}<p>
+            
+            <p><strong>Nome de Usuário:</strong> {username}</p>
+
+            <p><strong>Sexo:</strong> {sexo}</p>
+
+            <p><strong>Amigos:</strong> {amigos}</p>
+
+            <p><strong>Profile:</strong> {profile}</p>
+        </div>
+    </body>
+</html>
