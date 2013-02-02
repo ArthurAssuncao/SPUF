@@ -131,14 +131,18 @@ class spuf:
             resposta, conteudo = self.busca(busca)
             if resposta == 200:
                 conteudo = self.estrutura_resultado(conteudo)
-            elif resposta == 404:
-                conteudo = self.estrutura_resultado(None)
-                print 'URL inválida, verifique o ACCESS_TOKEN no arquivo de configurações.'
+            else:
+                conteudo = self.estrutura_resultado(resposta)
+                print 'Erro %s. Verifique o ACCESS_TOKEN em configurações.' % resposta
             self.view.load_html_string(conteudo, settings.URL_BASE)
 
 
     def estrutura_resultado(self, usuarios):
-        if len(usuarios['data']) == 0:
+        if not isinstance(usuarios, dict):
+            conteudo = open('./HTML/erro.html', 'r').read()
+            conteudo = conteudo.replace('{erro}', str(usuarios))
+            return conteudo
+        elif len(usuarios['data']) == 0:
             conteudo = open('./HTML/naoEncontrado.html', 'r').read() 
             return conteudo
         else:
@@ -161,7 +165,7 @@ class spuf:
             usuarios = json.loads(r)
             resposta = 200
         else:
-            resposta = 404
+            resposta = r.status_code
         return resposta, usuarios
 
     def gera_url_detalhada(self, pesquisa):
