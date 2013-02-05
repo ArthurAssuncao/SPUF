@@ -13,3 +13,10 @@ Descrição:
 Desenvolvido para a disciplina de Web Services do curso Tecnologia em Sistemas para Internet no Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas - Câmpus Barbacena.
 
 Sistema com o objetivo de utilizar o FQL (Facebook Query Language) juntamente com o OpenGraph para realizar pesquisas de usuários no Facebook.
+
+Configurando o Token de Acesso
+------------------------------
+
+Utilizando o link https://developers.facebook.com/tools/explorer, crie um Token de Acesso clicando em <i>Get Access Token</i>, adicionando as permisões que deseja.
+
+Copie o conteúdo do campo <i>Access Token</i> e subistitua o token antigo pelo atual no arquivo de contigurações <i>SPUF/spuf/settings.py</i>.
