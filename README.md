@@ -14,6 +14,14 @@ Desenvolvido para a disciplina de Web Services do curso Tecnologia em Sistemas p
 
 Sistema com o objetivo de utilizar o FQL (Facebook Query Language) juntamente com o OpenGraph para realizar pesquisas de usuários no Facebook.
 
+Requerimentos
+-------------
+
+Bibliotéca <i>requests</i>
+
+Modo de instalar: <i>sudo apt-get install python-requests</i>
+
+
 Configurando o Token de Acesso
 ------------------------------
 
