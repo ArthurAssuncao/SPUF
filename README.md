@@ -33,5 +33,6 @@ Copie o conteúdo do campo <i>Access Token</i> e subistitua o token antigo pelo 
 
 ![ft1](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft1.png)
 ![ft2](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft2.png)
-![ft3](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft3.png)
 ![ft4](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft4.png)
+![ft3](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft3.png)
+
