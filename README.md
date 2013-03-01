@@ -28,3 +28,10 @@ Configurando o Token de Acesso
 Utilizando o link https://developers.facebook.com/tools/explorer, crie um Token de Acesso clicando em <i>Get Access Token</i>, adicionando as permisões que deseja.
 
 Copie o conteúdo do campo <i>Access Token</i> e subistitua o token antigo pelo atual no arquivo de contigurações <i>SPUF/spuf/settings.py</i>.
+
+## Screenshots
+
+![ft1](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft1.png)
+![ft2](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft2.png)
+![ft3](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft3.png)
+![ft4](https://raw.github.com/mtsferreirasilva/SPUF/master/imagens/ft4.png)

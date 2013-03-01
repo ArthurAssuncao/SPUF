@@ -187,6 +187,7 @@ class spuf:
             
     def busca(self, texto):
         url = self.gera_url_comum(texto)
+        print url
         return self.retorna_lista(url)
 
 if __name__ == "__main__":
